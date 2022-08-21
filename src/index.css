@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #23252C
+}
+
+.footer {
+  background-color: #161619;
+}
+
+.app {
+  background: #1A1B21
+}
