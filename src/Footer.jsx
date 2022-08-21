@@ -1,12 +1,13 @@
 import React from 'react'
 import ReactDom from 'react-dom/client'
 import './index.css'
+import Twitter from "./assets/Twitter Icon.svg"
 
 export default function Footer(){
     return (
         <div className="footer w-full space-x-6 flex justify-center py-4 rounded-b-lg">
             <a href="#" className='hover:bg-sky-300'>
-                <img src="./src/assets/twitter Icon.svg" alt="icon" />
+                <img src={Twitter} alt="icon" />
             </a>
 
             <a href="#" className='hover:bg-sky-300'>
