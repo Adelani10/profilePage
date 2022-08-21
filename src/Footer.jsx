@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDom from 'react-dom/client'
 import './index.css'
-import Twitter from "./assets/Twitter Icon.svg"
+import Twitter from "./src/assets/Twitter Icon.svg"
 
 export default function Footer(){
     return (
