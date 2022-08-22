@@ -2,6 +2,10 @@ import React from 'react'
 import ReactDom from 'react-dom/client'
 import './index.css'
 import Twitter from "./src/assets/Twitter Icon.svg"
+import Github from "./src/assets/Github Icon.svg"
+import Linkedin from "./src/assets/Linkedin Icon.svg"
+import Instagram from "./src/assets/Instagram Icon.svg"
+import Facebook from "./src/assets/Facebook Icon.svg"
 
 export default function Footer(){
     return (
@@ -11,19 +15,19 @@ export default function Footer(){
             </a>
 
             <a href="#" className='hover:bg-sky-300'>
-                <img src="./src/assets/facebook icon.svg" alt="icon" />
+                <img src={Facebook} alt="icon" />
             </a>
 
             <a href="#" className='hover:bg-sky-300'>
-                <img src="./src/assets/instagram icon.svg" alt="icon" />
+                <img src={Instagram} alt="icon" />
             </a>
 
             <a href="#" className='hover:bg-sky-300'>
-                <img src="./src/assets/linkedin icon.svg" alt="icon" />
+                <img src={Linkedin} alt="icon" />
             </a>
 
             <a href="#" className='hover:bg-sky-300'>
-                <img src="./src/assets/github icon.svg" alt="icon" />
+                <img src={Github} alt="icon" />
             </a>
     
         </div>
