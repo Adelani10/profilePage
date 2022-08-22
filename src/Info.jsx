@@ -8,7 +8,7 @@ export default function Info(){
     return (
         <div className="w-full flex flex-col text-center text-white">
             <div className="h-56 w-full rounded-t-lg">
-                <img src={Img} className='h-full block w-full object-cover rounded-t-lg' alt="" />
+                <img src={Img} className='h-full block w-full object-cover border-none rounded-t-lg' alt="" />
             </div>
             
             <div className='space-y-1 px-5'>
